@@ -11,10 +11,8 @@ for _ in range(n):
 
 # sort by end time descending
 schedules.sort()
-print(schedules)
 
 schedules.sort(key = lambda x: (x[1],x[0]))
-print(schedules)
 
 max = 1
 endTime = schedules[0][1]
